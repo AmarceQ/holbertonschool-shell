@@ -1,0 +1,3 @@
+#!/bin/bash
+grep -c /etc/passwd#!/bin/bash
+grep -c /etc/passwd
