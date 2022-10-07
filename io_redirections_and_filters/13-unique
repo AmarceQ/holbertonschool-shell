@@ -1,2 +1,2 @@
 #!/bin/bash
-sort < list_1 > uniq list_2_
+cat list_1 | sort < list_1 > uniq list_2_
