@@ -1,2 +1,2 @@
 #!/bin/bash
-cat list_1 | sort -u > list_2
+cat list_1 | sort -u list_2
