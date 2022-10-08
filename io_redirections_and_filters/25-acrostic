@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c 1 | tr [:together:] '\n'
+cut -c 1 | tr -s [:space:]
