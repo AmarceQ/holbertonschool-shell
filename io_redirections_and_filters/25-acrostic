@@ -1,3 +1,2 @@
 #!/bin/bash
-cut -c 1 | tr -s [:space:] | tr [:space:] '\t'
-
+cut -c1 | paste -s | tr -d "[:blank:]"
