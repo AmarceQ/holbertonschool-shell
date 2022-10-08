@@ -1,2 +1,2 @@
 #!/bin/bash
-uniq -D | wc -l
+sort | uniq -cd | head -n 11
