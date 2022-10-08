@@ -1,2 +1,3 @@
 #!/bin/bash
-cut -c 1 | tr -s [:space:]
+cut -c 1 | tr -s [:space:] | tr [:space:] '\t'
+
